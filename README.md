@@ -1,6 +1,6 @@
 # Simple Weather Forecast App
 
-This is a simple web application that provides weather forecast information. It uses the free API from OpenWeatherMap to fetch and display weather data.
+This is a simple web application that provides weather forecast information. It uses the free API from OpenWeatherMap to fetch and display weather data. It also utilizes Netlify's serverless functions to keep the API key secure.
 
 ## Origin
 
@@ -30,3 +30,8 @@ To use this application, simply navigate to the deployed website [here](https://
 - *Deployment:* You'll learn how to deploy your app on Netlify. You'll understand how to configure environment variables, set up serverless functions, and manage your deployment settings.
 - *Debugging and Problem Solving:* Working on this project will require you to debug issues and solve problems. You'll learn how to use the browser's developer tools to inspect elements, view console logs, and debug JavaScript code.
 - *Version Control with Git:* You'll learn how to use Git for version control. You'll understand how to commit changes, create branches, merge branches, and resolve conflicts.
+
+
+## More Info
+
+For more on Netlify serverless functions, check out [Netlify's Docs](https://docs.netlify.com/functions/overview/).
