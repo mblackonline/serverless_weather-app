@@ -35,4 +35,7 @@ To use this application, simply navigate to the deployed website [here](https://
 
 ## More Info
 
-For more on Netlify serverless functions, check out [Netlify's Docs](https://docs.netlify.com/functions/overview/).
+- For more on Netlify serverless functions, check out [Netlify's Docs](https://docs.netlify.com/functions/overview/).
+
+- I used the information from this [video series on Netlify functions](https://www.youtube.com/playlist?list=PLzlG0L9jlhENl1o2vLw6vFKvHBb9D5A0u) to help me set up the serverless function in this project. 
+- This tutorial on [How to Hide API Keys in Frontend Apps using Netlify Functions](https://www.freecodecamp.org/news/hide-api-keys-in-frontend-apps-using-netlify-functions/) was also helpful in deploying this app with a serverless function.
