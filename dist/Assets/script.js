@@ -22,11 +22,11 @@ function displayWeather(data) {
   document.querySelector(".icon").src =
     "https://openweathermap.org/img/wn/" + icon + ".png";
   document.querySelector(".description").innerText = description;
-  document.querySelector(".temp").innerText = temp + "°F";
+  document.querySelector(".temp").innerText = temp.toFixed(0) + "°F";
   document.querySelector(".humidity").innerText =
     "Humidity: " + humidity + "%";
   document.querySelector(".wind").innerText =
-    "Wind speed: " + speedMph.toFixed(2) + " mph";
+    "Wind speed: " + speedMph.toFixed(0) + " mph";
   document.querySelector(".weather").classList.remove("loading");
   document.querySelector(".weather").style.display = "block";
   document.body.style.backgroundImage =
