@@ -1,6 +1,6 @@
-# Simple Weather Forecast App
+# Simple Weather App
 
-This is a simple web application that provides weather forecast information. It uses the free API from OpenWeatherMap to fetch and display weather data. It also utilizes Netlify's serverless functions to keep the API key secure.
+This is a simple web application that provides information on current weather conditions. It uses the free API from OpenWeatherMap to fetch and display weather data. It also utilizes Netlify's serverless functions to keep the API key secure.
 
 ## Origin
 
