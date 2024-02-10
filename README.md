@@ -10,9 +10,9 @@ This project was originally cloned and adapted from Shivang Gupta's open-source 
 
 #### Below are the main changes made to the original project:
 
-- Broke the JavaScript up into two files: getWeather.js and script.js. getWeather.js contains the function to fetch the weather data from the OpenWeatherMap API, and script.js contains the code to handle the user input and display the weather data.
-- *Removed the statically coded city:* The original project loaded weather data for a predefined city when the website was first opened. This has been changed to require the user to enter a zip code to fetch weather data.
-- *Changed the search key for the weather to use zip code:* Attempted to improve the accuracy of the weather search results, the search key for the weather has been changed to use a zip code instead of a city name.
+- Split the single JavaScript file into two files: getWeather.js and script.js. The getWeather.js file contains the function to fetch the weather data from the OpenWeatherMap API, and the script.js file displays the weather data that is fetched in getWeather.js.
+- *Removed the statically coded city:* The original project loaded weather data for a predefined city when the website was first opened.
+- *Changed the weather data search key to use zip code instead of city name:* This was done to improve accuracy of the weather data.
 - *Removed the hardcoded API key from the HTML file:* The original project had the API key hardcoded in the HTML file. This has been changed use a .env file for local development and a Netlify serverless function with an environment variable for deployment.
 - *Removed the About Us and Contact pages:* The original project included About Us and Contact pages. These have been removed from this project to streamline and simplify the application.
 
