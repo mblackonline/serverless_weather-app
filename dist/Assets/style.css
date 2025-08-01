@@ -9,7 +9,9 @@ body {
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
     font-size: 120%;
-  }
+    padding-top: 60px; /* Add this line to account for fixed navbar */
+    box-sizing: border-box; /* Add this to include padding in height calculation */
+}
   
   .card {
     background: #000000d0;
